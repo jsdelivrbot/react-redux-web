@@ -7,7 +7,10 @@ const INITIAL_STATE = {
 const gastosApp = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case TESTE:
-      return state;
+      return {
+        redux: 'hellooo',
+        payload: action.payload
+      };
     default:
       return state;
   }

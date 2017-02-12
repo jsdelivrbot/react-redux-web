@@ -14,11 +14,13 @@ module.exports = {
             query: {
                 presets: ['react', 'es2015']
             }
-        }, {
-            test: /\.js$/,
-            loader: "eslint-loader",
-            exclude: /node_modules/
-        }]
+         }
+        //  , {
+        //     test: /\.js$/,
+        //     loader: "eslint-loader",
+        //     exclude: /node_modules/
+        // }
+        ]
     },
     resolve: {
         extensions: ['.js', '.jsx']
